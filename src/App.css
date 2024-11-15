@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust to your preferred height */
+  overflow: hidden;
+  background: url('https://s3-alpha-sig.figma.com/img/e0d1/a272/fc7b9a86d0d47a85eb643a2756c7d0d5?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YG7JyV1AIfXm~YlLUqQM6a-6kFeJ3IbbwzfB3j5gEGC5gDlpfa0dcJry6kTdKiRfekwLOQGNT2LuL42gGx8g0avNAgTdnzXHb8phSIfsl3D5z1nPh5n7OpD1XG5qvGntnzn5N667AvLalhn7stz9tItaj6MeMcMHOmBkPVl-~DEwhwAzCoxXGTWAj8EpUF9iZraCwpTJ6jlOVOJJ~D8aU9qGJj7YActO-G5EJq6blzjFCj991PB2HlvNGRFvi~tWXf35M~lroxKLlizxep9KjFFvDnSrAN9o1sRYQT~zglAkvKM9XqF4vP7OvsIF3QrBMDdRCPyaX2C7i9iowyElxg__') no-repeat center center/cover;
+}
+
+.video-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://s3-alpha-sig.figma.com/img/e0d1/a272/fc7b9a86d0d47a85eb643a2756c7d0d5?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YG7JyV1AIfXm~YlLUqQM6a-6kFeJ3IbbwzfB3j5gEGC5gDlpfa0dcJry6kTdKiRfekwLOQGNT2LuL42gGx8g0avNAgTdnzXHb8phSIfsl3D5z1nPh5n7OpD1XG5qvGntnzn5N667AvLalhn7stz9tItaj6MeMcMHOmBkPVl-~DEwhwAzCoxXGTWAj8EpUF9iZraCwpTJ6jlOVOJJ~D8aU9qGJj7YActO-G5EJq6blzjFCj991PB2HlvNGRFvi~tWXf35M~lroxKLlizxep9KjFFvDnSrAN9o1sRYQT~zglAkvKM9XqF4vP7OvsIF3QrBMDdRCPyaX2C7i9iowyElxg__') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video fills the entire div */
+  z-index: -1; /* Places video behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Your content styling goes here */
+}
+
