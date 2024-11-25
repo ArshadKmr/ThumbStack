@@ -2,43 +2,43 @@
 const Trainers = () => {
     const products = [
         {
-            "image": "/src/assets/trainer1.jpeg",
+            "image": "/assets/trainer1.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/tainer2.jpeg",
+            "image": "/assets/tainer2.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/trainer3.jpeg",
+            "image": "/assets/trainer3.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/trainer4.jpeg",
+            "image": "/assets/trainer4.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/trainer5.jpeg",
+            "image": "/assets/trainer5.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/trainer6.jpeg",
+            "image": "/assets/trainer6.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience.",
         },
         {
-            "image": "/src/assets/tainer2.jpeg",
+            "image": "/assets/tainer2.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience, I’ve trained horses of all temperaments and riders of all skill levels, guiding them toward success.",
         },
         {
-            "image": "/src/assets/trainer3.jpeg",
+            "image": "/assets/trainer3.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience, I’ve trained horses of all temperaments and riders of all skill levels, guiding them toward success.",
         },
         {
-            "image": "/src/assets/trainer4.jpeg",
+            "image": "/assets/trainer4.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience, I’ve trained horses of all temperaments and riders of all skill levels, guiding them toward success.",
         },
         {
-            "image": "/src/assets/tainer2.jpeg",
+            "image": "/assets/tainer2.jpeg",
             "details": "At The Trainer Locker, I focus on building trust and communication between horse and rider,  With over 15 years of experience, I’ve trained horses of all temperaments and riders of all skill levels, guiding them toward success.",
         },
     ]
@@ -85,7 +85,7 @@ const Trainers = () => {
 
                                 <div className="flex flex-row p-4 mt-10 bg-gray-100 rounded-xl">
                                     <div className="w-1/5">
-                                        <img className="rounded-xl h-[52px] w-[52px]" src="/src/assets/img.jpeg" />
+                                        <img className="rounded-xl h-[52px] w-[52px]" src="/assets/img.jpeg" />
                                     </div>
                                     <div className="flex flex-row justify-between px-2 items-center w-full">
                                         <div>

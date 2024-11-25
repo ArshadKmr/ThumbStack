@@ -23,8 +23,8 @@ const Group4 = () => {
                 </div>
             </div>
             <div className="flex relative ">
-                <img src="/src/assets/group4image.png" alt="" className="" />
-                <img src="/src/assets/Perfect+Performance+Pack.png" alt="" className="absolute top-7 left-28" />
+                <img src="/assets/group4image.png" alt="" className="" />
+                <img src="/assets/Perfect+Performance+Pack.png" alt="" className="absolute top-7 left-28" />
             </div>
         </div>
     )

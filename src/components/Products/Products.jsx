@@ -5,16 +5,16 @@ import { ArrowRight } from "lucide-react";
 const Products = () => {
     const products = [
         {
-            imageSrc: "/src/assets/UnlockImage.png",
+            imageSrc: "/assets/UnlockImage.png",
             name: "UN-LOCK+",
             details: "Horserace performance muscle formula for endurance, fatigue and recovery",
             support: [
                 {
-                    icon: "/src/assets/Endurance.png",
+                    icon: "/assets/Endurance.png",
                     useCase: "Endurance"
                 },
                 {
-                    icon: "/src/assets/Recovery.png",
+                    icon: "/assets/Recovery.png",
                     useCase: "Recovery"
                 }
             ],
@@ -22,12 +22,12 @@ const Products = () => {
             color: "orange",
         },
         {
-            imageSrc: "/src/assets/flexiImage.png",
+            imageSrc: "/assets/flexiImage.png",
             name: "Flexify-HA",
             details: "Joint support formula for cartilage, flexibility and joint health",
             support: [
                 {
-                    icon: "/src/assets/Joint-Health-Blue 1.png",
+                    icon: "/assets/Joint-Health-Blue 1.png",
                     useCase: "Joint Health"
                 }
             ],
@@ -35,12 +35,12 @@ const Products = () => {
             color: "cyan",
         },
         {
-            imageSrc: "/src/assets/epoImage.png",
+            imageSrc: "/assets/epoImage.png",
             name: "EPO-Equine",
             details: "All-natural blood builder optimises oxygen levels for peak performance",
             support: [
                 {
-                    icon: "/src/assets/O2 1.png",
+                    icon: "/assets/O2 1.png",
                     useCase: "Oxygen Levels"
                 }
             ],
@@ -48,12 +48,12 @@ const Products = () => {
             color: "red",
         },
         {
-            imageSrc: "/src/assets/bleederImage.png",
+            imageSrc: "/assets/bleederImage.png",
             name: "Bleeder Shield",
             details: "One-of-a-kind respiratory formula. Now comes in a powder",
             support: [
                 {
-                    icon: "/src/assets/lungs.png",
+                    icon: "/assets/lungs.png",
                     useCase: "Lungs Support"
                 }
             ],
@@ -61,12 +61,12 @@ const Products = () => {
             color: "purple",
         },
         {
-            imageSrc: "/src/assets/royalImage.png",
+            imageSrc: "/assets/royalImage.png",
             name: "EQ-Royal",
             details: "Natural blood builder focused on optimising performance for equestrian horses.",
             support: [
                 {
-                    icon: "/src/assets/performance.png",
+                    icon: "/assets/performance.png",
                     useCase: "Performance"
                 }
             ],

@@ -7,21 +7,21 @@ const Subscribe = () => {
                     {/* First Row */}
                     <div className="aspect-square relative overflow-hidden group-hover:transition-all  duration-500  group-hover:-translate-x-1">
                         <img
-                            src="/src/assets/subscribeImage1.png"
+                            src="/assets/subscribeImage1.png"
                             alt="Equestrian sport"
                             className="object-cover w-full "
                         />
                     </div>
                     <div className="aspect-square relative overflow-hidden group-hover:transition  duration-500  group-hover:-translate-y-2">
                         <img
-                            src="/src/assets/subscribeImage2.png"
+                            src="/assets/subscribeImage2.png"
                             alt="Horse portrait"
                             className="aspect-square object-cover w-full "
                         />
                     </div>
                     <div className="aspect-square relative overflow-hidden">
                         <img
-                            src="/src/assets/subscibeImage3.png"
+                            src="/assets/subscibeImage3.png"
                             alt="Horse racing"
                             className="object-cover w-full "
                         />
@@ -31,21 +31,21 @@ const Subscribe = () => {
                     {/* Second Row */}
                     <div className="aspect-square relative overflow-hidden pl-3 group-hover:transition  duration-500  group-hover:-translate-x-1">
                         <img
-                            src="/src/assets/subscribeImage4.png"
+                            src="/assets/subscribeImage4.png"
                             alt="Training session"
                             className="object-cover w-full "
                         />
                     </div>
                     <div className="aspect-square relative overflow-hidden ">
                         <img
-                            src="/src/assets/subscribeImage5.png"
+                            src="/assets/subscribeImage5.png"
                             alt="Horse riding"
                             className="object-cover w-full "
                         />
                     </div>
                     <div className="aspect-square relative overflow-hidden pr-3 group-hover:transition  duration-500  group-hover:translate-x-1">
                         <img
-                            src="/src/assets/subscribeImage6.png"
+                            src="/assets/subscribeImage6.png"
                             alt="Racing practice"
                             className="object-cover w-full "
                         />
@@ -60,11 +60,11 @@ const Subscribe = () => {
                     <MoveRight className='text-white transform group-hover:translate-x-3 transition-transform duration-300' />
                 </button>
                 <div className="flex justify-start gap-8 my-8 ">
-                    <img src="/src/assets/Facebook.png" alt="" />
-                    <img src="/src/assets/Twitter.png" alt="" />
-                    <img src="/src/assets/Instagram.png" alt="" />
-                    <img src="/src/assets/Linkedin.png" alt="" />
-                    <img src="/src/assets/Youtube.png" alt="" />
+                    <img src="/assets/Facebook.png" alt="" />
+                    <img src="/assets/Twitter.png" alt="" />
+                    <img src="/assets/Instagram.png" alt="" />
+                    <img src="/assets/Linkedin.png" alt="" />
+                    <img src="/assets/Youtube.png" alt="" />
                 </div>
 
             </div>

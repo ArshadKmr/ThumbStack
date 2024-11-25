@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="pt-14 bg-black text-white overflow-hidden">
             <div className="w-full flex flex-col md:flex-row justify-evenly">
                 <div className="w-1/2 mx-12 px-12 flex flex-col md:flex-row items-center ">
-                    <img src="/src/assets/footerImage.png" alt="" />
+                    <img src="/assets/footerImage.png" alt="" />
                     <div>
                         <p className="font-lufga font-semibold text-2xl py-2"><span className="text-red-600">Trust</span> in Every Scoop</p>
                         <p className="font-montserrat font-normal text-[16px]">Non-swabbale formulas for your <br />

@@ -4,16 +4,16 @@ const InteractiveDots = () => {
     const products = [
         {
             id: "un-lock-plus",
-            imageSrc: "/src/assets/UnlockImage.png",
+            imageSrc: "/assets/UnlockImage.png",
             name: "UN-LOCK+",
             details: "Horserace performance muscle formula for endurance, fatigue and recovery",
             support: [
                 {
-                    icon: "/src/assets/Endurance.png",
+                    icon: "/assets/Endurance.png",
                     useCase: "Endurance"
                 },
                 {
-                    icon: "/src/assets/Recovery.png",
+                    icon: "/assets/Recovery.png",
                     useCase: "Recovery"
                 }
             ],
@@ -22,12 +22,12 @@ const InteractiveDots = () => {
         },
         {
             id: "flexify-ha",
-            imageSrc: "/src/assets/flexiImage.png",
+            imageSrc: "/assets/flexiImage.png",
             name: "Flexify-HA",
             details: "Joint support formula for cartilage, flexibility and joint health",
             support: [
                 {
-                    icon: "/src/assets/Joint-Health-Blue 1.png",
+                    icon: "/assets/Joint-Health-Blue 1.png",
                     useCase: "Joint Health"
                 }
             ],
@@ -36,12 +36,12 @@ const InteractiveDots = () => {
         },
         {
             id: "epo-equine",
-            imageSrc: "/src/assets/epoImage.png",
+            imageSrc: "/assets/epoImage.png",
             name: "EPO-Equine",
             details: "All-natural blood builder optimises oxygen levels for peak performance",
             support: [
                 {
-                    icon: "/src/assets/O2 1.png",
+                    icon: "/assets/O2 1.png",
                     useCase: "Oxygen Levels"
                 }
             ],
@@ -50,12 +50,12 @@ const InteractiveDots = () => {
         },
         {
             id: "bleeder-shield",
-            imageSrc: "/src/assets/bleederImage.png",
+            imageSrc: "/assets/bleederImage.png",
             name: "Bleeder Shield",
             details: "One-of-a-kind respiratory formula. Now comes in a powder",
             support: [
                 {
-                    icon: "/src/assets/lungs.png",
+                    icon: "/assets/lungs.png",
                     useCase: "Lungs Support"
                 }
             ],
@@ -64,12 +64,12 @@ const InteractiveDots = () => {
         },
         {
             id: "eq-royal",
-            imageSrc: "/src/assets/royalImage.png",
+            imageSrc: "/assets/royalImage.png",
             name: "EQ-Royal",
             details: "Natural blood builder focused on optimising performance for equestrian horses.",
             support: [
                 {
-                    icon: "/src/assets/performance.png",
+                    icon: "/assets/performance.png",
                     useCase: "Performance"
                 }
             ],
@@ -184,7 +184,7 @@ const InteractiveDots = () => {
                 </div>
                 <div
                     className="relative rounded-lg "                >
-                    <img src="/src/assets/Horse.png" alt="" className="2xl::min-w-[1042px] xl:min-w-[890px] lg:min-w-[760px]" />
+                    <img src="/assets/Horse.png" alt="" className="2xl::min-w-[1042px] xl:min-w-[890px] lg:min-w-[760px]" />
                     <button
                         onClick={() => showProduct("epo-equine")}
                         className={`${currentProduct.id === "epo-equine" ? "bg-red-800 ring-8 ring-red-100" : "bg-white"

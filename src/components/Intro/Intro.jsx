@@ -6,19 +6,19 @@ const Intro = () => {
             <div className='-mt-8 relative'>
                 <div className="hidden lg:flex items-center justify-center gap-9">
                     <div className="flex items-center gap-2 bg-red-200 rounded-full p-3 lg:h-16 lg:w-64">
-                        <img src="/src/assets/Package.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
+                        <img src="/assets/Package.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
                         <p className="font-montserrat lg:font-medium md:font-normal">Never Got Returned<br />Products</p>
                     </div>
                     <div className="flex items-center gap-2 bg-red-200 rounded-full p-3 lg:h-16 lg:w-64 ">
-                        <img src="/src/assets/Delivery 4.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
+                        <img src="/assets/Delivery 4.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
                         <p className="font-montserrat lg:font-medium md:font-normal">Fast Delivery</p>
                     </div>
                     <div className="flex items-center gap-2 bg-red-200 rounded-full p-3 lg:h-16 lg:w-64 ">
-                        <img src="/src/assets/Customer-Service 3.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
+                        <img src="/assets/Customer-Service 3.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
                         <p className="font-montserrat lg:font-medium md:font-normal">Customer Support</p>
                     </div>
                     <div className="flex items-center gap-2 bg-red-200 rounded-full p-3 lg:h-16 lg:w-64 ">
-                        <img src="/src/assets/Customer-Service 3.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
+                        <img src="/assets/Customer-Service 3.png" alt="" className="bg-white rounded-full p-2 md:h-7 md:w-7 lg:h-10 lg:w-10" />
                         <p className="font-montserrat lg:font-medium md:font-normal">Lorem Ipsum</p>
                     </div>
                 </div>
@@ -39,13 +39,13 @@ const Intro = () => {
                         <button className="bg-red-500 hover:bg-red-700 text-white flex gap-2 font-montserrat font-medium items-center rounded-full px-4 py-2 sm:px-5 sm:py-3 mt-2">
                             Get Race Ready
                             <span>
-                                <img src="/src/assets/arrowRight.png" alt="" className="w-3 h-3 sm:w-4 sm:h-4" />
+                                <img src="/assets/arrowRight.png" alt="" className="w-3 h-3 sm:w-4 sm:h-4" />
                             </span>
                         </button>
                     </div>
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="/src/assets/introImage1.png"
+                            src="/assets/introImage1.png"
                             alt="Intro"
                             className="m-auto my-5"
                         />
@@ -53,7 +53,7 @@ const Intro = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row justify-between items-center space-y-8 md:space-y-0">
                     <div className="w-full lg:w-1/2">
-                        <img src="/src/assets/introImage2.png" alt="" className="m-auto my-5" />
+                        <img src="/assets/introImage2.png" alt="" className="m-auto my-5" />
                     </div>
                     <div className="px-4 sm:px-6 md:px-8 lg:px-10 text-center md:text-left">
                         <h4 className="font-lufga font-semibold text-xl sm:text-2xl md:text-3xl leading-tight sm:leading-snug">
